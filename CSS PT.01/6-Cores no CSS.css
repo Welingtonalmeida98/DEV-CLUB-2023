@@ -1,0 +1,31 @@
+
+/*
+RGB: 
+RED
+GREEN
+BLUE
+ - a intencidade de cada cor vai de 0 a 250
+h1 {
+    background: rgb(255, .10, .100);
+}
+
+HEXADECIMAL
+
+DECIMAL(10) => 0,1,2,3,4,5,6,7,8,9
+HEXADECIMAL (16) => 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+SITES DE CORES
+- https://www.w3schools.com/css/css_colors_rgb.asp
+- https://color.adobe.com/pt/create/color-wheel
+- https://coolors.co/75f4f4-90e0f3-b8b3e9-d999b9-d17b88
+- Extensões no Crome
+
+*/
+
+h1 {
+    background: #952930;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+/* POSITION
+O que aprendi hoje
+
+Position: startic (padrão) - Não aceita valores de top, buntton, rigth e left.
+obs. fica no lugar dele - pra cima e no lado esquerdo
+Position: fixed - Fixa o elemnto da tela.
+obs. é como o elemento estivesse flutuando
+Propriedade Opacity - Opacidade é deixar o item completamente visivel ou invisivel ou no meio do caminho transparente.
+Position: sticky - Age como um adesivo, fixa o elemto só onde determinar.
+obs. sticky é um adesivo 
+Position: relative - Posição relativa a posição inicial dele.
+O elemento fica relativo ou seja ele se posiciona referente a posição inicial dele
+Position: absolute - Posição absoluta(fixa) a algum elemento ou a pagina.
+Duas regras
+                    Se tiver pai / pai for startic -> Posiciona referente a pagina
+                    Se pai NÃO for startic -> Posiciona referente a pai
+
+Propriedades:
+- top
+- botton
+- left
+- rigth
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+}
+
+.div-dad {
+    height: 350px;
+    width: 350px;
+    background-color: #ff1396;
+}
+
+.div-son {
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00;
+}
+
+.tanananan {
+    background: #ff0000;
+    height: 100px;
+    width: 100px;
+}

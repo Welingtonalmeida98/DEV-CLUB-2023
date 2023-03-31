@@ -1,0 +1,73 @@
+/* Pseudo Classes
+
+O que aprendi hoje
+
+:active - quando o elemento esta ativo, ou seja, está sendo pressionao
+:visited - seleciona o link que foi visitado
+:hover - quando o mouse passe por cima do elemento
+:checked - usado em radio / checbox / select
+:disabled - elemento desabilitado / button / input
+:enabled - elemento está habilitado
+:focus - è aplicada quando um elemto recebe foco, o que pode ocorrer quando um usuario seleciona o elemento
+:read-only - seleciona input ou textarea que são apenas leitura
+:empty - elemento que não tem filho
+
+:first-child - primeiro filho / ex: primeira li de uma ul / primeiro span de uma div
+:first-of-type - primeiro elemento de seu tipo entre os filhos de seu elemnto pai
+:last-child - último filho
+:last-of-type - último elemento de seu tipo entre os filhos de seu elemyo pai
+:not() - estiliza os elementos, exceto o que esta dentro do ()
+:nth-child() - seleciona o elemnto baseado na sua posição. Ex: :nth-child(3)
+:nth-last-child() - seleciona o elemento baseado na sua posição, contando de trás para frente
+
+a:hover{
+color: red;
+}
+p {
+    color: red;
+}
+p:hover {
+    color: blue;
+}
+input:checked {
+    height: 100px;
+    width: 100px;
+}
+input:disabled {
+    height: 100px;
+    width: 100px;
+}
+input:focus {
+    border: 1px solid red;
+    outline: none;
+}
+input:read-only {
+    border: 1px solid blue;
+    outline: none;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+.container:empty {
+    background: blue;
+}
+
+input:read-only {
+    border: 1px solid blue;
+    outline: none;
+}
+    
+
+
+
+

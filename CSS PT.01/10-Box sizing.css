@@ -1,0 +1,25 @@
+/* Box Sizing*/
+/* O que aprendi hoje
+Box sizing - configuração contet-box ela vai 
+sempre somando esses valores e o tamanho dos
+ elementos vão crescendo.
+Boder-box - Ele sempre vai aclopar esses valores 
+dentro do elemento
+Content-box - vai sempre controlar 
+o tamanho da largura e altura do elemento
+95% dos trabalhos usarei border-box
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background: #ff1493ff;
+    border: 10px solid #00f;
+
+}

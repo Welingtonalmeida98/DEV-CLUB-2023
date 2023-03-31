@@ -1,0 +1,19 @@
+/* PSEUDO ELEMENTOS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: blue;
+}
+
+a::before {
+    content:"🚀";
+}
+
+a::after {
+    content: " 😍";
+}

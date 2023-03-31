@@ -1,0 +1,28 @@
+/*Responsividade
+É quando o site se adapta a diferente tela 
+seja no computador, celular ou tablet*/
+/*O que aprendi hoje
+- @media midia keuri
+- max-widith
+- min-widith
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background: blue;
+}
+
+@media (max-width: 400px) {
+    div{
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+}

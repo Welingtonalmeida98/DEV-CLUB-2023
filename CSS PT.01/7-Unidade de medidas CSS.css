@@ -1,0 +1,61 @@
+.html {
+    font-size: 32px;
+}
+.vo {
+    font-size: 16px;
+}
+
+.pai {
+width: 500px;
+height: 500px;
+background: #ff0000;
+color: #ffff;
+font-size: 2m;
+}
+
+.filho {
+width: 250px;
+height: 250px;
+background-color: #0000ff;
+font-size: 2rem;
+}
+/*
+
+UNIDADES DE MEDIDAS
+
+-> ABSOLUTAS
+px (pixels) 1/100 de polegada
+in (inches/polegadas)
+cm /mm (centimetro / milimetro
+
+_> RELATIVAS
+% calculo tamanho relativo ao elemento pai
+.pai {
+width: 100px;
+height: 100px;
+background: blue;
+}
+
+.filho {
+width: 50%;
+height: 50%;
+background-color: red;
+
+vw (view width) 1vw é 1% da largura da janela do Navegador
+vh (view height) 1vh é 1% da altura da janela do Navegador
+.pai {
+width: 50vw;
+height: 50vh;
+background: blue;
+}
+
+.filho {
+width: 50%;
+height: 50%;
+background-color: red;
+}
+
+en é uma unidade relativa ao elemto pai
+ren é uma unidade relativa ao elemento raiz
+
+*/

@@ -1,0 +1,14 @@
+
+/*
+CSS
+=> folha de estilo em CASCATA
+olhar usando INSPECIONAR na pagina
+*/
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}

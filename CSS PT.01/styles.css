@@ -1,0 +1,17 @@
+/* Obrigatorio ; */
+
+    
+h1{
+    color:rgb(72, 0, 255);
+    background: black;
+}
+p {
+color: blue;
+font-size: 20px;
+}
+
+button {
+    background: green;
+    border-color: darkgreen;
+}
+    
